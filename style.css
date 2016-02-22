@@ -1,0 +1,57 @@
+svg { border: 0px solid #dedede; }
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;  
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;  
+}
+
+.text {
+  padding-top: 20px;
+  max-width: 600px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.25px;
+}
+
+.authors {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; 
+}
+
+.key {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+#content {
+  padding: 20px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.area { fill: #4ca3bd; }
+
+#slider {
+    width: 535px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
