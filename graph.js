@@ -8,8 +8,10 @@ var rescale = function(groupIndex) {
 }
 
 var initSlider = function(data) {
+
     var min = 0;
     var max = data.length - 1;
+        console.log("initSlider min:" + min + ", max:" + max);
     $('#slider').attr('min', min);
     $('#slider').attr('max', max);
 }
