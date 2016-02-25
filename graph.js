@@ -126,5 +126,5 @@ slider.on("input change", function(){
 
 initSlider(_DATA);
 var data = _DATA[0];//generateData(7);
-generateGraph(data);
+rescale(0);
 

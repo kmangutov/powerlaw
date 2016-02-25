@@ -19,38 +19,48 @@
         <div class="column small-12"><h1>Exploring Participation Imbalance in Group Messaging</h1>
         <span class="authors">A. Gupta, J. Huang, K. Mangutov, C. Mathew</span></div>
 
-        <div class="column small-12">
-            <p class="text">The <a href="https://en.wikipedia.org/wiki/Power_law">power law</a> is a relationship in which a relative change in one quantity results in a proportional relative change in the other quantity. An example of this is the Pareto principle, which suggests that in many events 80% of the effects come from 20% of the causes. It can be observed in a wide range of industries ranging from <a href="http://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm">software development</a> to <a href="http://www.theguardian.com/commentisfree/2011/nov/11/occupy-movement-wealth-power-law-distribution">wealth inequality</a>.</p>
+        <div class="column small-12 large-5">
+            <p class="text">The <a href="https://en.wikipedia.org/wiki/Power_law">power law</a> is a relationship in which a relative change in one quantity results in a proportional relative change in the other quantity. An example of this is the Pareto principle, which suggests that in many events 80% of the effects come from 20% of the causes. It can be observed in a wide range of phenomena ranging from <a href="http://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm">software development</a> to <a href="http://www.theguardian.com/commentisfree/2011/nov/11/occupy-movement-wealth-power-law-distribution">wealth inequality</a>.</p>
 
             <p class="text">The aim of this visualization is to explore this principle as it applies to text group communication, namely <a href="https://groupme.com/en-US/">GroupMe</a>. The vertical black bar represents the point at which members have contributed 80% of the messages in the group.</p>
 
              <p class="text">Our data is compiled from fourteen of our own messaging groups. All data is anonymized.</p>
+
+             <p class="text">We hypothesize that as group size increases, the dominance of certain individuals will decrease.</p>
+
+
+           <p class="text">The visualization seems to confirm our hypothesis. As group size increases, a fewer portion of the group members seem to dominate the conversation.</p><br><br>
         </div>
-    </div>
 
+
+        <div class="column small-12 large-1">
+        &nbsp;
+        </div>
+
+        <div class="column small-12 large-6">
+            <br><br>
+
+            <svg id="area"/>
+
+            <br>
+            <br>
+
+            <div id="content-slider">
+                <h3>Group of size <span id="group-size">7</span></h3>
+                <span class="key">Small</span>
+                <input id="slider" type="range" name="points" id="points" value="0" min="0" max="50" width="535">
+                <span class="key">Large</span>
+            </div>
+        </div>
 
     <br>
-    <br>
 
-    <svg id="area"/>
-
-    <br>
-    <br>
-
-    <div id="content-slider">
-        <h3>Group of size <span id="group-size">7</span></h3>
-        <span class="key">Small</span>
-        <input id="slider" type="range" name="points" id="points" value="0" min="0" max="50" width="535">
-        <span class="key">Large</span>
-    </div>
-
-    <br>
-
-    <div class="row">
+    <!--<div class="row">
         <div class="column small-12">
-           
+           <br>
+           <p class="text">The visualization seems to confirm our hypothesis. As group size increases, a fewer portion of the group members seem to dominate the conversation.</p><br><br>
         </div>
-    </div>
+    </div>-->
 
 </div>
 </center>
