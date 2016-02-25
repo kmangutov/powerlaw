@@ -34,6 +34,18 @@ h3 {
   font-weight: 400; 
 }
 
+.left {
+  left: 0px !important;
+  text-align: left !important;
+  margin: 0 auto;
+}
+
+.right {
+  right: 0px !important;
+  text-align: right;
+  margin: 0 auto;
+}
+
 .key {
   font-size: 24px;
   padding-bottom: 20px;
@@ -51,7 +63,7 @@ h3 {
 .area { fill: #4ca3bd; }
 
 #slider {
-    width: 535px;
+    width: 380px;
     margin-left: 20px;
     margin-right: 20px;
 }
